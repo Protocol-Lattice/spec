@@ -123,4 +123,3 @@ type Agent interface {
 ---
 
 This summary covers the core specifications of the `go-agent` framework as detailed in the project files. It is a powerful tool for building sophisticated, production-grade AI systems in Go.# spec
-# spec
