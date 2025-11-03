@@ -12,7 +12,6 @@ The framework is designed to be modular, allowing developers to compose agents f
 
 The ADK provides a declarative way to build agents by combining modules for different functionalities like LLM integration, memory, and tooling.
 
-**Example from `lattice-code/src/agent.go`:**
 ```go
 builder, err := adk.New(
     ctx,
@@ -77,7 +76,6 @@ Lattice-Agent features a robust and extensible tool system built with the **Univ
 *   **UTCP-Native**: As a steward of UTCP, the framework is designed for this protocol. UTCP is a standard that enables AI agents to discover and call tools regardless of the underlying transport, promoting interoperability.
 *   **Model Agnostic**: The tool-calling mechanism works across different LLM provider APIs.
 
-**Example Tool from `agent/README.md`:**
 ```go
 // EchoTool repeats the provided input.
 type EchoTool struct{}
