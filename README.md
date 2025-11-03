@@ -102,7 +102,6 @@ The framework provides a unified `models.Agent` interface, allowing for pluggabl
 *   **Supported Providers**: Adapters are available for Gemini, Anthropic, Ollama, and OpenAI.
 *   **Bring Your Own**: The interface makes it straightforward to add support for custom or self-hosted models.
 
-**Interface from `agent/src/models/interface.go`:**
 ```go
 type Agent interface {
 	Generate(context.Context, string) (any, error)
