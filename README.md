@@ -6,7 +6,7 @@
 
 ### **1. Core Concepts & Architecture**
 
-The framework is designed to be modular, allowing developers to compose agents from reusable components. This is facilitated by an **Agent Development Kit (ADK)**.
+The framework is designed to be modular, allowing developers to compose agents from reusable components.
 
 #### **1.1. Agent Development Kit (ADK)**
 
